@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/getToken','MockAPIController@token');
+
+Route::get('/getUserId','MockAPIController@userId');
