@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/getToken','MockAPIController@token');
 
 Route::get('/getUserId','MockAPIController@userId');
+
+Route::get('/returnMyCookie','MockAPIController@cookieBack');
